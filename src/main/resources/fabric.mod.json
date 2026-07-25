@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "skeleton_searcher",
+  "version": "${version}",
+  "name": "Skeleton Searcher",
+  "description": "从第三个条件起显示球壳交集与差集结果，支持区段网格缓存、距离 LOD 和可开关的隔墙透视。",
+  "authors": [
+    "yym"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.yym.skeletonsearcher.SkeletonSearcherClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
